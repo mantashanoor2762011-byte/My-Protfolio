@@ -1,0 +1,62 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "ai-color-palette",
+        "value": "*",
+        "files": [
+          "src/index.css"
+        ],
+        "createdAt": "2026-10-02T08:31:18.792Z",
+        "reason": "Client-specified pastel brand gradient"
+      },
+      {
+        "rule": "body-text-viewport-edge",
+        "value": "*",
+        "files": [
+          "src/components/Reviews.jsx"
+        ],
+        "createdAt": "2026-10-02T08:31:19.772Z",
+        "reason": "Intentional horizontal scroll-snap review track"
+      },
+      {
+        "rule": "italic-serif-display",
+        "value": "*",
+        "files": [
+          "src/components/Hero.jsx"
+        ],
+        "createdAt": "2026-10-02T08:46:46.407Z",
+        "reason": "Italic serif hero headline matches the client's own design mockup"
+      },
+      {
+        "rule": "marquee",
+        "value": "*",
+        "files": [
+          "src/components/Marquee.jsx"
+        ],
+        "createdAt": "2026-10-02T10:31:32.975Z",
+        "reason": "Single ribbon added on client's request for richer animation; pauses on hover, static with reduced motion"
+      },
+      {
+        "rule": "dark-glow",
+        "value": "*",
+        "files": [
+          "src/index.css"
+        ],
+        "createdAt": "2026-10-02T11:13:57.320Z",
+        "reason": "Soft glow on hero/gate headline requested by client (reference design)"
+      },
+      {
+        "rule": "marquee",
+        "value": "*",
+        "files": [
+          "src/components/Hero.jsx"
+        ],
+        "createdAt": "2026-10-02T11:13:58.953Z",
+        "reason": "Sliding project photos requested by client"
+      }
+    ]
+  }
+}
